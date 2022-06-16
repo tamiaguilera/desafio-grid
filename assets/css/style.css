@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  header{
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 50px;
+    padding: 1rem;
+    background-color: rgb(178, 230, 212);
+  }
+  .textoizquierda{
+    margin-top: 1rem;
+  }
+  
+  .textoderecha{
+    text-align: right;
+    font-size: 15px;
+  }
+  
+  body {
+    font-family: 'Marcellus', serif;
+    color: #1c1c1c;
+    background: rgba(255, 255, 255, 0.446);
+  }
+  
+  
+  .main-container {
+    display: grid;
+    grid-template-areas:
+    "H H H H "
+    "A A M M "
+    "F F F F ";
+  }
+.main-container h2{
+      padding:1rem;
+      gap: 1rem;
+  }
+.icono{
+    display: flex;
+    align-items: center;
+   
+}
+.lista{
+    font-size: 1.1rem;
+    padding-left: 2rem;
+}
+
+aside {
+    grid-area: A;
+    padding: 3rem 3rem;
+    background-color: rgb(249, 250, 215);
+    box-shadow: 2px;
+    
+}
+ main {
+    grid-area: M;
+    display: flex;
+    padding: 2rem 2rem;
+    justify-content: center;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .card {
+    background: #fff;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+  }
+  
+  .card h3 {
+    margin: 1rem 0;
+  }
+  
+  .card img {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 2rem;
+  }
+  
+  .btn {
+    background-color: rgb(165, 165, 227);
+    color: rgb(15, 12, 12);
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+  }
+
+  footer{
+    font-family: 'Marcellus', serif;
+    background-color: rgb(178, 230, 212);
+    text-align: center;
+    padding: 1rem;
+    color: black;
+  }
+  
